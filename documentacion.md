@@ -66,7 +66,7 @@ Cada producto tiene los campos: `id`, `nombre`, `cantidad`, `precio` y `categori
 
 Al iniciar, el programa lee el fichero JSON y muestra cuántos productos hay cargados.
 
-> **[CAPTURA: pantalla de inicio con el mensaje de productos cargados]**
+![Carga inicial](./capturas/01-carga-inicial.png)
 
 ---
 
@@ -74,7 +74,7 @@ Al iniciar, el programa lee el fichero JSON y muestra cuántos productos hay car
 
 Muestra todos los productos del inventario en formato tabla.
 
-> **[CAPTURA: opción 1 - listado completo]**
+![Listar productos](./capturas/02-listar-productos.png)
 
 ---
 
@@ -82,7 +82,7 @@ Muestra todos los productos del inventario en formato tabla.
 
 Se solicitan los datos del nuevo producto y se añade al final del JSON.
 
-> **[CAPTURA: proceso de añadir un producto nuevo]**
+![Añadir producto](./capturas/03-anadir-producto.png)
 
 **JSON antes:**
 ```json
@@ -98,10 +98,10 @@ Se solicitan los datos del nuevo producto y se añade al final del JSON.
   ...,
   {
     "id": 6,
-    "nombre": "Yogur",
-    "cantidad": 80,
-    "precio": 0.9,
-    "categoria": "Lacteos"
+    "nombre": "CocaCola",
+    "cantidad": 5,
+    "precio": 1.2,
+    "categoria": "Bebidas"
   }
 ]
 ```
@@ -112,7 +112,7 @@ Se solicitan los datos del nuevo producto y se añade al final del JSON.
 
 Se selecciona el producto por ID y se actualizan sus campos. Si se deja en blanco un campo, se mantiene el valor anterior.
 
-> **[CAPTURA: proceso de modificación de un producto]**
+![Modificar producto](./capturas/04-modificar-producto.png)
 
 **JSON antes:**
 ```json
@@ -130,13 +130,13 @@ Se selecciona el producto por ID y se actualizan sus campos. Si se deja en blanc
 
 Se selecciona el producto por ID, se muestra confirmación y se elimina del JSON.
 
-> **[CAPTURA: proceso de eliminación con confirmación]**
+![Eliminar producto](./capturas/05-eliminar-producto.png)
 
 **JSON antes:**
 ```json
 [
   {"id": 1, "nombre": "Agua", ...},
-  {"id": 2, "nombre": "Pan", ...},
+  {"id": 2, "nombre": "Pan Integral", ...},
   {"id": 3, "nombre": "Leche", ...}
 ]
 ```
@@ -155,15 +155,15 @@ Se selecciona el producto por ID, se muestra confirmación y se elimina del JSON
 
 Hay dos tipos de búsqueda: por nombre (búsqueda parcial) y por categoría. El JSON no se modifica.
 
-> **[CAPTURA: búsqueda por nombre con resultados]**
+![Buscar por nombre](./capturas/06-buscar-nombre.png)
 
-> **[CAPTURA: búsqueda por categoría con resultados]**
+![Buscar por categoría](./capturas/07-buscar-categoria.png)
 
 ---
 
 ### 5.7 JSON final
 
-> **[CAPTURA: contenido del fichero productos.json al final de la sesión]**
+![JSON final](./capturas/08-json-final.png)
 
 ---
 
@@ -184,6 +184,6 @@ El proyecto se gestionó mediante **GitHub Issues** en el repositorio del proyec
 | #5 | Crear fichero JSON inicial con datos de prueba | Cerrada |
 | #6 | Pruebas y corrección de errores | Cerrada |
 
-> **[CAPTURA: panel de issues en GitHub mostrando las tareas cerradas]**
+![Issues GitHub](./capturas/09-issues-github.png)
 
-> **[CAPTURA: detalle de una issue]**
+![Detalle issue](./capturas/10-issue-detalle.png)

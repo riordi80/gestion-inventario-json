@@ -7,13 +7,6 @@
     "categoria": "Bebidas"
   },
   {
-    "id": 2,
-    "nombre": "Pan",
-    "cantidad": 50,
-    "precio": 0.8,
-    "categoria": "Alimentacion"
-  },
-  {
     "id": 3,
     "nombre": "Leche",
     "cantidad": 200,
@@ -33,5 +26,12 @@
     "cantidad": 40,
     "precio": 3.75,
     "categoria": "Limpieza"
+  },
+  {
+    "id": 6,
+    "nombre": "CocaCola",
+    "cantidad": 5,
+    "precio": 1.2,
+    "categoria": "Bebidas"
   }
 ]
