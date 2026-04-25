@@ -67,6 +67,7 @@ Cada producto tiene los campos: `id`, `nombre`, `cantidad`, `precio` y `categori
 Al iniciar, el programa lee el fichero JSON y muestra cuántos productos hay cargados.
 
 ![Carga inicial](./capturas/01-carga-inicial.png)
+*Pantalla de inicio con el número de productos cargados*
 
 ---
 
@@ -75,6 +76,7 @@ Al iniciar, el programa lee el fichero JSON y muestra cuántos productos hay car
 Muestra todos los productos del inventario en formato tabla.
 
 ![Listar productos](./capturas/02-listar-productos.png)
+*Listado completo del inventario*
 
 ---
 
@@ -83,6 +85,7 @@ Muestra todos los productos del inventario en formato tabla.
 Se solicitan los datos del nuevo producto y se añade al final del JSON.
 
 ![Añadir producto](./capturas/03-anadir-producto.png)
+*Proceso de añadir un producto nuevo*
 
 **JSON antes:**
 ```json
@@ -113,6 +116,7 @@ Se solicitan los datos del nuevo producto y se añade al final del JSON.
 Se selecciona el producto por ID y se actualizan sus campos. Si se deja en blanco un campo, se mantiene el valor anterior.
 
 ![Modificar producto](./capturas/04-modificar-producto.png)
+*Proceso de modificación de un producto por ID*
 
 **JSON antes:**
 ```json
@@ -131,6 +135,7 @@ Se selecciona el producto por ID y se actualizan sus campos. Si se deja en blanc
 Se selecciona el producto por ID, se muestra confirmación y se elimina del JSON.
 
 ![Eliminar producto](./capturas/05-eliminar-producto.png)
+*Proceso de eliminación con confirmación*
 
 **JSON antes:**
 ```json
@@ -156,14 +161,17 @@ Se selecciona el producto por ID, se muestra confirmación y se elimina del JSON
 Hay dos tipos de búsqueda: por nombre (búsqueda parcial) y por categoría. El JSON no se modifica.
 
 ![Buscar por nombre](./capturas/06-buscar-nombre.png)
+*Búsqueda por nombre con resultados*
 
 ![Buscar por categoría](./capturas/07-buscar-categoria.png)
+*Búsqueda por categoría con resultados*
 
 ---
 
 ### 5.7 JSON final
 
 ![JSON final](./capturas/08-json-final.png)
+*Contenido del fichero productos.json al final de la sesión*
 
 ---
 
@@ -185,5 +193,7 @@ El proyecto se gestionó mediante **GitHub Issues** en el repositorio del proyec
 | #6 | Pruebas y corrección de errores | Cerrada |
 
 ![Issues GitHub](./capturas/09-issues-github.png)
+*Panel de issues en GitHub mostrando las tareas cerradas*
 
 ![Detalle issue](./capturas/10-issue-detalle.png)
+*Detalle de una issue*
