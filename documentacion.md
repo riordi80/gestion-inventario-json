@@ -76,14 +76,6 @@ Muestra todos los productos del inventario en formato tabla.
 
 > **[CAPTURA: opción 1 - listado completo]**
 
-**JSON antes:**
-```json
-[
-  {"id": 1, "nombre": "Agua", "cantidad": 100, "precio": 1.5, "categoria": "Bebidas"},
-  ...
-]
-```
-
 ---
 
 ### 5.3 Añadir producto
@@ -92,7 +84,15 @@ Se solicitan los datos del nuevo producto y se añade al final del JSON.
 
 > **[CAPTURA: proceso de añadir un producto nuevo]**
 
-**JSON después de añadir (nuevo producto con ID generado automáticamente):**
+**JSON antes:**
+```json
+[
+  {"id": 1, "nombre": "Agua", "cantidad": 100, "precio": 1.5, "categoria": "Bebidas"},
+  ...
+]
+```
+
+**JSON después:**
 ```json
 [
   ...,
@@ -114,12 +114,12 @@ Se selecciona el producto por ID y se actualizan sus campos. Si se deja en blanc
 
 > **[CAPTURA: proceso de modificación de un producto]**
 
-**JSON antes de modificar:**
+**JSON antes:**
 ```json
 {"id": 2, "nombre": "Pan", "cantidad": 50, "precio": 0.8, "categoria": "Alimentacion"}
 ```
 
-**JSON después de modificar:**
+**JSON después:**
 ```json
 {"id": 2, "nombre": "Pan Integral", "cantidad": 60, "precio": 1.1, "categoria": "Alimentacion"}
 ```
@@ -132,7 +132,7 @@ Se selecciona el producto por ID, se muestra confirmación y se elimina del JSON
 
 > **[CAPTURA: proceso de eliminación con confirmación]**
 
-**JSON antes de eliminar:**
+**JSON antes:**
 ```json
 [
   {"id": 1, "nombre": "Agua", ...},
@@ -141,7 +141,7 @@ Se selecciona el producto por ID, se muestra confirmación y se elimina del JSON
 ]
 ```
 
-**JSON después de eliminar el ID 2:**
+**JSON después:**
 ```json
 [
   {"id": 1, "nombre": "Agua", ...},
@@ -171,32 +171,19 @@ Hay dos tipos de búsqueda: por nombre (búsqueda parcial) y por categoría. El 
 
 El proyecto se gestionó mediante **GitHub Issues** en el repositorio del proyecto.
 
-**Repositorio:** `https://github.com/[usuario]/ProyectoInicialJSON`
+**Repositorio:** `https://github.com/riordi80/gestion-inventario-json`
 
 ### Issues creadas:
 
-| Issue | Título | Responsable | Estado |
-|-------|--------|-------------|--------|
-| #1 | Crear estructura Maven y pom.xml con Gson | [Nombre 1] | Cerrada |
-| #2 | Implementar clase modelo Producto | [Nombre 1] | Cerrada |
-| #3 | Implementar GestorProductos (CRUD + JSON) | [Nombre 2] | Cerrada |
-| #4 | Implementar menú por consola | [Nombre 2] | Cerrada |
-| #5 | Crear fichero JSON inicial con datos de prueba | [Nombre 1] | Cerrada |
-| #6 | Pruebas y corrección de errores | Ambos | Cerrada |
+| Issue | Título | Estado |
+|-------|--------|--------|
+| #1 | Crear estructura Maven y pom.xml con Gson | Cerrada |
+| #2 | Implementar clase modelo Producto | Cerrada |
+| #3 | Implementar GestorProductos (CRUD + JSON) | Cerrada |
+| #4 | Implementar menú por consola | Cerrada |
+| #5 | Crear fichero JSON inicial con datos de prueba | Cerrada |
+| #6 | Pruebas y corrección de errores | Cerrada |
 
-> **[CAPTURA: panel de issues en GitHub mostrando las tareas]**
+> **[CAPTURA: panel de issues en GitHub mostrando las tareas cerradas]**
 
-> **[CAPTURA: ejemplo de issue con descripción y asignado]**
-
----
-
-## 7. Reparto del trabajo
-
-| Tarea | Responsable |
-|-------|-------------|
-| `Producto.java` | [Nombre 1] |
-| `GestorProductos.java` | [Nombre 2] |
-| `Menu.java` | [Nombre 2] |
-| `Main.java` + `pom.xml` | [Nombre 1] |
-| JSON inicial + pruebas | Ambos |
-| Documentación | Ambos |
+> **[CAPTURA: detalle de una issue]**
