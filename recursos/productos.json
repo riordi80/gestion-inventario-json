@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "nombre": "Agua",
+    "cantidad": 100,
+    "precio": 1.5,
+    "categoria": "Bebidas"
+  },
+  {
+    "id": 2,
+    "nombre": "Pan",
+    "cantidad": 50,
+    "precio": 0.8,
+    "categoria": "Alimentacion"
+  },
+  {
+    "id": 3,
+    "nombre": "Leche",
+    "cantidad": 200,
+    "precio": 1.2,
+    "categoria": "Bebidas"
+  },
+  {
+    "id": 4,
+    "nombre": "Manzana",
+    "cantidad": 300,
+    "precio": 0.5,
+    "categoria": "Fruta"
+  },
+  {
+    "id": 5,
+    "nombre": "Detergente",
+    "cantidad": 40,
+    "precio": 3.75,
+    "categoria": "Limpieza"
+  }
+]
